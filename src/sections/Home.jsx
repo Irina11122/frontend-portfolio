@@ -13,11 +13,7 @@ export default function Home() {
       className="mb-20 relative flex md:flex-row flex-col h-screen items-center justify-center overflow-hidden"
     >
       <div className="">
-        <img
-          src="../../public/por2.png"
-          alt="portfolio-img"
-          className="home-img"
-        />
+        <img src="/por2.png" alt="portfolio-img" className="home-img" />
       </div>
       <div
         id="my-text"

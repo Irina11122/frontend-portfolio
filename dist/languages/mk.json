@@ -1,0 +1,50 @@
+{
+  "navbar-name": "IRINA BOJKOVSKA",
+  "home-link": "ДОМА",
+  "projects-link": "ПРОЕКТИ",
+  "about-link": "ЗА МЕНЕ",
+  "skills-link": "ВЕШТИНИ",
+  "contact-link": "КОНТАКТ",
+  "hello": "ДОБРЕДОЈДЕ ВО МОЈОТ ТЕРМИНАЛ:",
+  "sub-hello-text": "креативен веб девелопер кој претвара идеи во код. Со искуство во JavaScript, React, и Python, јас градам модерни и пријателски-веб апликации за корисниците.",
+  "about-us": "За нас",
+  "contact": "Контакт",
+  "my-projects": "Моите Проекти",
+  "Space Tourism": "Спејс Туризам",
+  "A multi-page space travel website using React Router.": "Мулти-страничен вебсајт за патување во вселената со React Router.",
+  "Sign Up Form": "Форма за Регистрација",
+  "A responsive form component with basic validation.": "Респонзивна форма со основна валидација.",
+  "FAQ Accordion": "ЧПП Акордеон",
+  "A collapsible FAQ component using HTML, CSS, and JavaScript.": "Склоплива компонента со често поставувани прашања.",
+  "Product List with Cart": "Листа на Производи со Кошничка",
+  "A shopping cart project with React state management.": "Проект за кошничка за пазарење со управување на состојба во React.",
+
+  "React": "React",
+  "CSS": "CSS",
+  "decode": "[~] ДЕКОДИРАЈ ГИ МОИТЕ ПРОЕКТИ",
+  "Advice Generator API": "Генератор на Совети (API)",
+  "Fetches random advice using an external API.": "Враќа случаен совет користејќи надворешен API.",
+  "REST API": "REST API",
+
+  "[ GitHub ]": "[ GitHub ]",
+  "[ Live Demo ]": "[ Лајв Демo ]",
+  "about": {
+    "lines": [
+      "Име: Ирина",
+      "Улога: Frontend девелопер | Графички дизајнер",
+      "Специјалност: Чист UI. Прецизен код. Функционален дизајн.",
+      "C:\\Irina\\Pro > bio --full",
+      "> самоука, зависна од код и гориво  –  кафе.",
+      "> [ градaм кориснички интерфејси со прецизност – без вишок, без бучава ]",
+      "C:\\Irina\\Pro > skills --list",
+      "[✔] HTML / CSS / JavaScript",
+      "[✔] React / Vite / Tailwind / Bootstrap",
+      "[✔] Респонзивен дизајн и пристапност",
+      "[✔] Framer Motion / GSAP анимации",
+      "[✔] Node.js / Express / PostgreSQL [ во тек... ]",
+      "[✔] Figma / Adobe Illustrator / Krita",
+      "[✔] Git / GitHub",
+      "[✔] Терминал вештини: 9/10"
+    ]
+  }
+}

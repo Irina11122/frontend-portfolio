@@ -1,0 +1,47 @@
+{
+  "navbar-name": "Irina Bojkovska",
+  "home-link": "HOME |",
+  "projects-link": "PROJECTS |",
+  "about-link": "ABOUT ME |",
+  "skills-link": "SKILLS |",
+  "contact-link": "CONTACT |",
+  "hello": "WELCOME TO MY TERMINAL:",
+  "sub-hello-text": "Irina Bojkovska - a creative web developer turning ideas into code.With experience in JavaScript, React, and Python, I build modern and user-friendly web applications.",
+  "my-projects": " My Projects",
+  "Product List with Cart": "Product List with Cart",
+  "A shopping cart project with React state management.": "A shopping cart project with React state management.",
+  "Space Tourism": "Space Tourism",
+  "A multi-page space travel website using React Router.": "A multi-page space travel website using React Router.",
+  "Sign Up Form": "Sign Up Form",
+  "A responsive form component with basic validation.": "A responsive form component with basic validation.",
+  "Advice Generator API": "Advice Generator API",
+  "Fetches random advice using an external API.": "Fetches random advice using an external API.",
+  "FAQ Accordion": "FAQ Accordion",
+  "A collapsible FAQ component using HTML, CSS, and JavaScript.": "A collapsible FAQ component using HTML, CSS, and JavaScript.",
+  "React": "React",
+  "CSS": "CSS",
+  "decode": "[~] DECODE MY PROJECTS",
+  "REST API": "REST API",
+
+  "[ GitHub ]": "[ GitHub ]",
+  "[ Live Demo ]": "[ Live Demo ]",
+  "about": {
+    "lines": [
+      "Name: Irina",
+      "Role: Frontend Developer | Graphic Designer",
+      "Specialty: Clean UI. Sharp Code. Functional Design",
+      "C:\\Irina\\Pro > bio --full",
+      "> self-taught, code-obsessed and fueled by caffeine.",
+      "> [ I build user interfaces with precision -no fluff, no noise ]",
+      "C:\\Irina\\Pro > skills --list",
+      "[✔] HTML / CSS /JavasScript ",
+      "[✔] React / Vite / Tailwind / Bootstrap",
+      "[✔] Responsive Design & Accessability",
+      "[✔] Framer Motion / GSAP Animations",
+      "[✔] Node.js / Express / PostgreSQL [ in progress... ]",
+      "[✔] Figma / Adobe Illustrator / Krita",
+      "[✔] Git / GitHub",
+      "[✔] Terminal fluency: 9/10"
+    ]
+  }
+}
