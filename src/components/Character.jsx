@@ -1,10 +1,10 @@
-import { useGLTF } from '@react-three/drei';
-import { useEffect, useRef } from 'react';
-import { useFrame } from '@react-three/fiber';
-import * as THREE from 'three';
+import { useGLTF } from "@react-three/drei";
+import { useEffect, useRef } from "react";
+import { useFrame } from "@react-three/fiber";
+import * as THREE from "three";
 
 export default function Character() {
-  const { scene, animations } = useGLTF('/avatar.glb');
+  const { scene, animations } = useGLTF("/avatar2-draco.glb");
   const mixerRef = useRef();
 
   useEffect(() => {
