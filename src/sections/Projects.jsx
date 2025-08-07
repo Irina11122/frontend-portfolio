@@ -11,8 +11,7 @@ export default function Projects() {
       description:
         "A React app with state-managed shopping cart and product listing.",
       tech: ["React", "CSS"],
-      github:
-        "https://github.com/Irina11122/Product-list-with-cart-SOLUTION.git",
+      github: "https://github.com/Irina11122/Product-list-with-cart-SOLUTION#",
       live: "https://irina11122.github.io/Product-list-with-cart-SOLUTION/",
       image: "/recipe-screenshot.png",
     },
@@ -149,7 +148,7 @@ export default function Projects() {
                 <div>
                   <a
                     className="hover:text-green-400 hover:scale-105"
-                    href={project.live}
+                    href={project.github}
                   >
                     {" "}
                     {t("[ GitHub ]")}{" "}
