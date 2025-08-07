@@ -1,11 +1,11 @@
-import { t } from 'i18next';
-import { useEffect } from 'react';
-import AnimatedTranslation from '../components/AnimatedTranslation';
-import { FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
-import gsap from 'gsap';
+import { t } from "i18next";
+import { useEffect } from "react";
+import AnimatedTranslation from "../components/AnimatedTranslation";
+import { FaInstagram, FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
+import gsap from "gsap";
 export default function Home() {
   useEffect(() => {
-    gsap.fromTo('#my-text', { x: '1000px', duration: 2.9 }, { x: 0 });
+    gsap.fromTo("#my-text", { x: "1000px", duration: 2.9 }, { x: 0 });
   }, []);
   return (
     <section
@@ -19,7 +19,7 @@ export default function Home() {
         id="my-text"
         className="share-tech-mono-regular home-text-container flex flex-col"
       >
-        <div className="home-text">
+        <div className="home-text overflow-hidden">
           <h1 className="text-2xl mb-3">
             <AnimatedTranslation tkey="hello" />
           </h1>
@@ -29,12 +29,12 @@ export default function Home() {
 
           <div className="flex md:flex md:gap-5 gap-3 justify-end md:mt-14 mt-5 md:mr-9 mr-0">
             <p className="hover:animate-pulse">
-              <a href="#">
-                <FaTwitter size={40} color="lightgreen" />
+              <a href="https://github.com/Irina11122">
+                <FaGithub size={40} color="lightgreen" />
               </a>
             </p>
             <p className="hover:animate-pulse">
-              <a href="#">
+              <a href="https://instagram.com/irina.bojkovska.ib/">
                 <FaInstagram size={40} color="lightgreen" />
               </a>
             </p>
