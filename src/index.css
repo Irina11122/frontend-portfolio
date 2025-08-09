@@ -12,6 +12,11 @@ body.light {
 .light .projects-bg {
   background-color: rgba(104, 51, 104, 0.61) !important;
 }
+
+.light .project-cards:hover {
+  background-color: white;
+  color: black;  box-shadow: 0 0 15px #ff00ff, inset 0 0 15px #ff00ff;
+}
 @keyframes blinkCursor {
   50% {
     border-right-color: transparent;
@@ -105,8 +110,11 @@ body.light {
 }
 
 .project-cards:hover {
-  box-shadow: 0 0 20px #ffffff, inset 0 0 20px #fffcfc;
+  border: 1px solid #ffceff;
+  box-shadow: 0 0 25px #ff00ff, inset 0 0 25px #ff00ff;
   scale: 1.1;
+  transition: all 0.5s ease-in-out;
+  color: #fff0fe;
 }
 
 .cmd {
@@ -164,7 +172,6 @@ body.light {
   transition: all 0.4s ease;
 
   &:hover {
-    filter: drop-shadow(0 0 50px #ff00ff75);
     filter: hue-rotate(140deg);
   }
 }
@@ -189,10 +196,6 @@ body.light .home-img {
 .decode-btn {
   background-color: #ff00ff;
   z-index: 2;
-}
-
-.decode-btn:hover .home-img{
-  filter: hue-rotate(140deg);
 }
 
 @media (max-width: 820px) {

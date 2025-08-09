@@ -140,7 +140,7 @@ export default function Projects() {
                 />
               </div>
               <div className="projects-text">
-                <h3 className="text-green-400 text-2xl mb-5">
+                <h3 className="text-green-500 text-2xl font-bold mb-5">
                   {t(project.name)}{" "}
                 </h3>
                 <p>{t(project.description)} </p>
