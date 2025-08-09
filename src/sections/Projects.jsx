@@ -112,7 +112,7 @@ export default function Projects() {
       id="projects"
       className="relative projects-bg z-10 min-h-screen w-full bg-black/80 md:py-10 md:px-4 "
     >
-      <h2 className="text-white text-center my-8 text-4xl">
+      <h2 className="text-white text-center my-8 text-4xl my-projects-text">
         <AnimatedTranslation tkey="my-projects" />
       </h2>
 

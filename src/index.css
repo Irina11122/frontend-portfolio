@@ -67,7 +67,9 @@ body.light {
 .terminal-controls {
   float: right;
 }
-
+.my-projects-text {
+  letter-spacing: 5px;
+}
 .control {
   display: inline-block;
   width: 0.6em;
