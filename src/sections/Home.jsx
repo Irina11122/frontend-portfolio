@@ -3,8 +3,6 @@ import { useEffect } from "react";
 import AnimatedTranslation from "../components/AnimatedTranslation";
 import { FaInstagram, FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
 import gsap from "gsap";
-import { Canvas } from "@react-three/fiber";
-import Character from "../components/Character";
 export default function Home() {
   useEffect(() => {
     gsap.fromTo("#my-text", { x: "1000px", duration: 2.9 }, { x: 0 });
@@ -15,7 +13,9 @@ export default function Home() {
       className="mb-20 relative flex md:flex-row flex-col h-screen items-center justify-center overflow-hidden"
     >
       <div className="bg-black/50 w-screen h-screen absolute top-0 left-0"></div>
-      <div className=""></div>
+      <div className="">
+        <img src="/por2.png" alt="portfolio-img" className="home-img" />
+      </div>
       <div
         id="my-text"
         className="share-tech-mono-regular home-text-container flex flex-col"
