@@ -24,8 +24,8 @@ export default function Character() {
   return (
     <group position={[0, -1, 0]}>
       <mesh receiveShadow>
-        <boxGeometry args={[1.2, 0.2, 1]} />
-        <meshStandardMaterial color="#ccc" metalness={0.3} roughness={0.4} />
+        <boxGeometry args={[1.7, 0, 1]} />
+        <meshStandardMaterial color="#39ff14" metalness={0.3} roughness={0.4} />
       </mesh>
 
       <primitive

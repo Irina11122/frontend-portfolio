@@ -3,6 +3,8 @@ import { useEffect } from "react";
 import AnimatedTranslation from "../components/AnimatedTranslation";
 import { FaInstagram, FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
 import gsap from "gsap";
+import { Canvas } from "@react-three/fiber";
+import Character from "../components/Character";
 export default function Home() {
   useEffect(() => {
     gsap.fromTo("#my-text", { x: "1000px", duration: 2.9 }, { x: 0 });
@@ -12,35 +14,34 @@ export default function Home() {
       id="home"
       className="mb-20 relative flex md:flex-row flex-col h-screen items-center justify-center overflow-hidden"
     >
-      <div className="">
-        <img src="/por2.png" alt="portfolio-img" className="home-img" />
-      </div>
+      <div className="bg-black/50 w-screen h-screen absolute top-0 left-0"></div>
+      <div className=""></div>
       <div
         id="my-text"
         className="share-tech-mono-regular home-text-container flex flex-col"
       >
         <div className="home-text overflow-hidden">
-          <h1 className="text-2xl mb-3">
+          <h1 className="text-2xl mb-3 my-home-text">
             <AnimatedTranslation tkey="hello" />
           </h1>
           <p>
             <AnimatedTranslation tkey="sub-hello-text" />
           </p>
 
-          <div className="flex md:flex md:gap-5 gap-3 justify-end md:mt-14 mt-5 md:mr-9 mr-0">
+          <div className="flex md:flex md:gap-5 gap-3 justify-end md:mt-10 mt-5 md:mr-9 mr-0">
             <p className="hover:animate-pulse">
               <a href="https://github.com/Irina11122">
-                <FaGithub size={40} color="lightgreen" />
+                <FaGithub size={45} color="lightgreen" />
               </a>
             </p>
             <p className="hover:animate-pulse">
               <a href="https://instagram.com/irina.bojkovska.ib/">
-                <FaInstagram size={40} color="lightgreen" />
+                <FaInstagram size={45} color="lightgreen" />
               </a>
             </p>
             <p className="hover:animate-pulse">
               <a href="https://www.linkedin.com/in/irina-bojkovska-iri17/">
-                <FaLinkedin size={40} color="lightgreen" />
+                <FaLinkedin size={45} color="lightgreen" />
               </a>
             </p>
           </div>
