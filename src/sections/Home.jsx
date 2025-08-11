@@ -14,7 +14,11 @@ export default function Home() {
     >
       <div className="bg-black/50 w-screen h-screen absolute top-0 left-0"></div>
       <div className="">
-        <img src="/por2.png" alt="portfolio-img" className="home-img" />
+        <img
+          src="/por2.png"
+          alt="portfolio-img"
+          className="home-img md:block hidden"
+        />
       </div>
       <div
         id="my-text"

@@ -214,18 +214,17 @@ body.light .home-img {
     width: 100%;
   }
   .decode-btn {
-    position: absolute;
-    bottom: 19.5rem;
-    left: 5%;
+    position: relative;
+    align-self: center;
     background-color: #ff00ff;
-    z-index: 10;
-    width: 90%;
-    padding: 0.5rem 1rem;
+    z-index: 0;
+    width: 100%;
+    padding: 0;
     border-radius: 0.5rem;
     box-shadow: 0 0 10px #ff00ffaa;
     color: #000;
     font-weight: bold;
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   #home {
     height: 100%;
@@ -245,23 +244,12 @@ body.light .home-img {
     width: 100%;
     z-index: 10;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 7px;
   }
-  .home-text {
-    padding: 10px;
-    position: absolute;
-    width: 90%;
-    bottom: 12rem;
-    left: 50%;
-    transform: translate(-50%, 50%);
-    margin: 20px auto;
-    height: auto;
-    font-size: 0.6rem;
-    background-color: #000;
-    border: 1px solid #ff00ff;
-    box-shadow: 0 0 70px #ff00ff7c;
-    color: white;
-    z-index: 10;
-  }
+
 
   .home-text h1 {
     font-size: 0.8rem;
@@ -340,5 +328,12 @@ body.light .home-img {
     width: 80%;
     margin: auto;
     margin-bottom: 10px;
+  }
+
+  .home-text {
+    position: relative;
+    width: 90%;
+    height: 100%;
+    margin-top: 100px;
   }
 }

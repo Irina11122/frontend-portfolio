@@ -25,9 +25,8 @@ export default function App() {
   return (
     <ThemeProvider>
       <Navbar />
-      <div className="relative bg-black">
-        <MatrixRain />
-      </div>
+      <div className="relative bg-black"></div>
+      <MatrixRain />
       <div className="relative z-10">
         <Home />
         <Projects />
